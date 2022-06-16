@@ -1,3 +1,7 @@
-import '../styles/main.scss';
+let questionResult = prompt("How old are you?")
 
-console.log('test')
+alert(questionResult)
+
+let secondaryQuestionResult = prompt("What is your name?")
+
+console.log(`Hello ${secondaryQuestionResult}, nice to see you!`);
