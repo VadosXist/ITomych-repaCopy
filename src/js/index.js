@@ -1,7 +1,7 @@
-let questionResult = prompt("How old are you?")
+let askAge = prompt("How old are you?")
 
-alert(questionResult)
+alert(askAge)
 
-let secondaryQuestionResult = prompt("What is your name?")
+let askName = prompt("What is your name?")
 
-console.log(`Hello ${secondaryQuestionResult}, nice to see you!`);
+console.log(`Hello ${askName}, nice to see you!`);
